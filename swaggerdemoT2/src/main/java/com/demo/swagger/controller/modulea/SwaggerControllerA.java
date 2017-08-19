@@ -1,7 +1,6 @@
-package com.demo.swagger.controller;
+package com.demo.swagger.controller.modulea;
 
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -18,9 +17,9 @@ import io.swagger.annotations.ApiParam;
  * @date 2017-08-12 15:10
  */
 @Controller
-@RequestMapping("/swaggerdemo")
-@Api(tags = "A Demo")
-public class SwaggerController {
+@RequestMapping("/swaggerdemoa")
+@Api(tags = "A Demo A")
+public class SwaggerControllerA {
 
     @ResponseBody
     @RequestMapping(value = "/helloworld", method = RequestMethod.GET)
